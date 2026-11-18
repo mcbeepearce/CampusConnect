@@ -1,15 +1,15 @@
-
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
     <!-- Page information -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CampusConnect | Weather</title>
-
+    
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
-
+    
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -19,7 +19,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
             <a class="navbar-brand" href="index.html">CampusConnect</a>
-
+           
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -36,6 +36,7 @@
     </nav>
 
     <!-- Weather page content -->
+
     <main class="container py-5">
 
         <section class="text-center mb-5">
@@ -52,7 +53,7 @@
                         <p class="text-muted">Belmont, North Carolina</p>
 
                         <!-- Weather data will be added through JavaScript -->
-                        <div id="weather-info">
+                        <div id="weather-info" aria-live="polite">
                             <h3>--°F</h3>
                             <p>Weather information will appear here.</p>
                         </div>
@@ -75,7 +76,7 @@
                     </div>
                 </div>
             </div>
-
+         
             <div class="col-md-6">
                 <div class="card h-100">
                     <div class="card-body">
@@ -85,9 +86,9 @@
                 </div>
             </div>
         </section>
-
+    
     </main>
-
+    
     <!-- Footer -->
     <footer class="text-center py-4">
         <p>&copy; 2026 CampusConnect | Belmont Abbey College</p>
@@ -95,7 +96,7 @@
 
     <!-- Bootstrap JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-
+    
     <!-- Custom JavaScript -->
     <script src="js/script.js"></script>
 
