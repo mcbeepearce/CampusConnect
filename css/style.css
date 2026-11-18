@@ -1,0 +1,54 @@
+
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #222;
+}
+
+/* Navigation bar */
+.navbar {
+    background-color: #171717 !important;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+/* Homepage heading */
+h1 {
+    color: #B5122B;
+    font-weight: bold;
+}
+
+/* Feature cards */
+.card {
+    border: none;
+    border-top: 4px solid #B5122B;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #B5122B;
+    border-color: #B5122B;
+}
+
+.btn-primary:hover {
+    background-color: #8F0E22;
+    border-color: #8F0E22;
+}
+
+/* Footer */
+footer {
+    background-color: #171717;
+    color: white;
+    font-size: 0.9rem;
+}
